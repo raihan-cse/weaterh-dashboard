@@ -1,0 +1,31 @@
+.five_forecast {
+    min-height: 15.625rem;
+}
+
+.five_forecast .title {
+    padding-bottom: .75rem;
+}
+
+.forecast_content .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bdbdbd;
+    border-radius: .25rem;
+    padding: .25rem;
+}
+
+.forecast_content .item:not(:last-child) {
+    margin-bottom: .25rem;
+}
+
+.forecast_content .item img {
+    width: 28px;
+    height: 28px;
+}
+
+@media (max-width: 767.98px) {
+    .forecast_content .item p {
+        font-size: .875rem;
+    }
+}

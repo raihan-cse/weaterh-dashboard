@@ -1,0 +1,15 @@
+.chart {
+    min-height: 25rem;
+}
+
+@media (max-width: 991.98px) {
+    .chart {
+        min-height: 16rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .chart {
+        min-height: 8rem;
+    }
+}
